@@ -1,0 +1,10 @@
+import java.util.Random;
+import java.util.Scanner;
+public class RandomA 
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter size of an array");
+	int size=sc.nextInt();
+	int[] rand=new int[size];
+	
+}

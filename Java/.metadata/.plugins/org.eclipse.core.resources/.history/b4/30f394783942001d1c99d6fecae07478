@@ -1,0 +1,16 @@
+
+public class Qops 
+{
+	static int top=-1;
+	static int arr[]=new int[5];
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+	
+	public static void push(int n)
+	{
+		if(top > arr.length-1)
+	}
+}

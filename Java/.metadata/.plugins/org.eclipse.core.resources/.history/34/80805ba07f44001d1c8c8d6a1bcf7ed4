@@ -1,0 +1,11 @@
+import java.util.Random;
+import java.util.Scanner;
+public class RandomA 
+{
+	Scanner sc=new Scanner(System.in);
+	System.out.println
+	int sizer=sc.nextInt();
+	
+	int[] rand=new int[sizer];
+	
+}

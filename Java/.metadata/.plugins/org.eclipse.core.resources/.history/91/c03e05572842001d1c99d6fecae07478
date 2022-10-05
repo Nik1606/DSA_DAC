@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class Stackops 
+{
+	static int top=-1;
+	Animals[] a=new Animals[5];
+	
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		int choice=sc.nextInt();
+		
+		switch(choice) 
+		{
+		case 1: 
+			String an=sc.next();
+			push(an);
+			break;
+		
+		case 2: pop();
+		break;
+		
+		case 3: display();
+		break;
+		
+		}
+	}
+	
+	private  void push(String an) 
+	{
+		if(top>=a.length-1 )
+		{
+			System.out.println("Stack full");
+		}
+		else
+		{
+			++top;
+			a[top]=an;
+			
+		}
+	}
+
+	
+}

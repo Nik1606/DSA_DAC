@@ -1,0 +1,18 @@
+
+public class Account {
+
+	private String name;
+	private int acno=12345;
+	private String actype;
+	private float abal;
+
+	public Account()
+	{
+		name="ABCD";
+		acno++;
+		actype="saving";
+		abal=0.00f;
+	}
+	
+	public Account()
+}
